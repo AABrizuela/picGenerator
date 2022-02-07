@@ -1,0 +1,117 @@
+body{
+  background-image: url(src\assets\img\flock-bkg.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul#footerList{
+  padding: 20px;
+}
+
+.background{
+  padding: 20px;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  font-weight: bold;
+  font-size: 100px;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  font-style: italic;
+}
+
+.flocks{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.flock{
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 2px black;
+  border-radius: 110px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.flockName{
+  font-size: 60px;
+  font-style: italic;
+  font-weight: bold;
+  font-family: Lato-Black;
+}
+
+.flockDesc{
+  font-weight: bold;
+  font-family: Lato-Regular;
+  font-size: 30px;
+}
+
+.footer{
+  text-align: center;
+  text-shadow: 2px 2px 2px black;
+  font-family: Lato-Regular;
+  font-size: 40px;
+  font-style: italic;
+  background-color: #ffffff80;
+  border-radius: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+#obsidian{
+  background-color: #39312c80;
+}
+
+#regal{
+  background-color: #833da380;
+}
+
+#crimson{
+  background-color: #ff000080;
+}
+
+#flamingo{
+  background-color: #ff55ff80;
+}
+
+#frost{
+  background-color: #00ffdd80;
+}
+
+#cobalt{
+  background-color: #1044ff80;
+}
+
+#emerald{
+  background-color: #17ac8680;
+}
+
+#cobbler{
+  background-color: #ffaa6680;
+}
+
+#solar{
+  background-color: #ffd70080;
+}
+
+#wind{
+  background-color: #88ccff80;
+}
+
+#artic{
+  background-color: #f8f8f980;
+}
